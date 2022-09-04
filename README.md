@@ -52,8 +52,8 @@ The following is a detailed description of the fields in the dataset:
 .
 ├── ...
 ├── United_States           # Name of country
-│   ├── United_States_1.csv # Table of contents
-│   ├── United_States_2.csv # Frequently asked  
+│   ├── United_States_1.csv # Dataset 1
+│   ├── United_States_2.csv # Dataset 2 
 │   └── ...                 # etc.
 └── ...
 
