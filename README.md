@@ -6,7 +6,7 @@ These audio were tagged using the following rules:
 
 1. A birdcall will occur within *500ms* of start time and *500ms* before the end time.
 2. Any positive tag will not contain more than *1s* of background noise between birdcalls.
-3. Time interval between two positive tags in the same recording must be >=1s unless an obvious birdcall of another species occurs.
+3. Time interval between two positive tags in the same recording must be >=1s unless an obvious birdcall of another bird in the background occurs (different species or same species in distance).
 
 ## Dataset 
     
