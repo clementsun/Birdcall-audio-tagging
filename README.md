@@ -2,7 +2,7 @@
 
 This is a dataset of birdcall recordings, a specific subset gathered from the [xeno-canto](www.xeno-canto.org) collection to form a manually audio-tagged dataset. This dataset aims to identify birdcall against background noise / other sound types. Though the dataset can be used to tackle birdcall species classification problem, all species data should be considered weakly labelled. 
 
-These audio were tagged using the following rules:
+Audios were tagged using the following rules:
 
 1. A birdcall will occur within *500ms* of start time and *500ms* before the end time.
 2. Any positive tag will not contain more than *1s* of background noise between birdcalls.
@@ -25,7 +25,7 @@ The following is a detailed description of the fields in the dataset:
 - **longitude** : Longitude of the recording in decimal coordinates
 - **elevation** : Elevation of the recording was made (in meters)
 - **song_type** : Sound type of the recording (e.g. 'call', 'song', etc)
-- **remarks** : Additional remarks by recordist
+- **remarks** : Additional remarks by recordist (Line separator **'**;**'**)
 - **back_latin** : List of scientific name of background species
 - **catalogue_number** : Catalogue number of the recording on xeno-canto
 - **rating** : Rating of the recording (The best A to the worst E)
@@ -43,8 +43,8 @@ The following is a detailed description of the fields in the dataset:
 - **num_notes** : Sound characteristics of birdcall
 - **variable** : Sound characteristics of birdcall
 - **license** : License of the recordings
-- **start_time** : Start time of tagging 
-- **end_time** : End time of the tagging
+- **start_time** : Start time of tag in seconds (round down to nearest 2 decimal places)
+- **end_time** : End time of the tag in seconds (round up to nearest 2 decimal places)
 
 ## Project Structure
 
