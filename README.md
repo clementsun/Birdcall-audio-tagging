@@ -6,7 +6,7 @@ Audios were tagged using the following rules:
 
 1. A birdcall will occur within *500ms* of start time and *500ms* before the end time.
 2. Any positive tag will not contain more than *1s* of background noise between birdcalls.
-3. Time interval between two positive tags in the same recording must be >=1s unless an obvious birdcall of another bird in the background occurs (different species or same species in distance).
+3. Each record represents a single bird species unless multiple birdcalls (multiple bird species or different species) overlapping 
 
 ## Dataset 
     
@@ -34,8 +34,8 @@ The following is a detailed description of the fields in the dataset:
 - **sampling_rate** : Sample rate of the recording file
 - **bitrate** : Bit rate of the recording file
 - **channels** : Number of channels used to record the file
-- **bird-seen** : Was the recorded bird visually identified? (True/False)
-- **playback-used** : Was playback used to lure the bird? (True/False)
+- **bird-seen** : Was the recorded bird visually identified? (yes/no)
+- **playback-used** : Was playback used to lure the bird? (yes/no)
 - **volume** : Sound characteristics of birdcall
 - **speed** : Sound characteristics of birdcall
 - **pitch** : Sound characteristics of birdcall
@@ -45,6 +45,7 @@ The following is a detailed description of the fields in the dataset:
 - **license** : License of the recordings
 - **start_time** : Start time of tag in seconds (round down to nearest 2 decimal places)
 - **end_time** : End time of the tag in seconds (round up to nearest 2 decimal places)
+- **primary_target** : Primary target of recording (True/False)
 
 ## Project Structure
 
