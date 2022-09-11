@@ -8,6 +8,8 @@ Audios were tagged using the following rules:
 2. Any positive tag will not contain more than *1s* of background noise between birdcalls.
 3. Each record represents a single bird species unless multiple birdcalls (multiple bird species or different species) overlapping 
 
+*Dataset currently consists of **207** records from **13.5** minutes of birdcall recordings with four bird species. (Update every two to three days)*
+
 ## Dataset 
     
 The following is a detailed description of the fields in the dataset:
